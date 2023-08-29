@@ -1,0 +1,30 @@
+.policy {
+    display: block;
+    overflow: hidden;
+    padding: 5px;
+    
+}
+.policy li {
+    display: block;
+    overflow: hidden;
+    padding: 8px 0;
+    font-size: 14px;
+    position: relative;
+}
+.policy li.policy_title{
+    text-transform: uppercase;
+    font-weight: 600
+}
+.policy li strong {
+    color: #333;
+}
+
+.policy li a {
+    color: #0b5690
+}
+
+.policy li a:hover {
+    text-decoration: underline
+}
+.policy li img{height: 20px;vertical-align: middle;margin-right: 5px;}
+
