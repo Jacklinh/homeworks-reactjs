@@ -1,0 +1,19 @@
+
+.attr_block {
+    align-items: center;
+    margin: 10px 0;
+    display: flex;
+}
+.product_attrs .attr_block span{
+    margin-left: 5px;
+}
+.product_attrs .attr_block span.attr_item {
+    background-color: #fff;
+    border: 2px solid #eee;
+    padding: 2px 8px;
+}
+.product_attrs .attr_block span.attr_item.current{
+    border: 2px solid #212121;
+    color: #212121;
+    background-color: #f0f0f0;
+}
